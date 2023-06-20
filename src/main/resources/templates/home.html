@@ -10,7 +10,9 @@
 <div class="container">
     <h1>Spring Boot Blog</h1>
     <hr />
-
+    <ul>
+        <li><a th:href="@{/posts/create}">Create new post</a></li>
+    </ul>
     <div class="posts-container">
         <div class="post" th:each="post : ${posts}">
             <h2><a th:href="@{'/posts/' + ${post.id}}" th:text="${post.title}">Title</a></h2>
