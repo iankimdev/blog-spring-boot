@@ -1,26 +1,22 @@
-# blog
+# Blog
 
-유저 인증기능과 포스팅 기능을 갖춘 블로그
+Blog with user authentication and posting functions
+- This is a toy project for studying Java and springboot.
 
-- Java와 springboot를 공부하기 위한 토이 프로젝트입니다.
-- todo app을 만들며 MVC패턴과 CRUD를 이해하였습니다.
-
-## 기능
-- Web Security와 BCryptPasswordEncoder을 활용한 유저 인증 기능
-- Create new post 버튼으로 포스팅 추가
-- Update 버튼으로 포스팅 수정
-- Delete 버튼으로 포스팅 삭제
-
-
-## 배포 URL
-http://13.125.33.210:8080
+## Functions
+- User authentication function using Web Security and BCryptPasswordEncoder
+- Add a post using the Create new post button
+- Edit posting with the Update button
+- Delete a post with the Delete button
 
 
 
-## 개발/서비스 배포 환경 
+
+
+## Stack
 
 - Java, Springboot
-- Amazon EC2, Amazon RDS,  Docker
+- Amazon EC2, Amazon RDS, Docker
 
 
 
